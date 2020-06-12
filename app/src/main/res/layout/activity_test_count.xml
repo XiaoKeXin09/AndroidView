@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F3B243"
+    android:layout_height="match_parent"
+    tools:context=".countdown.TestCountActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.xiao.androidview.countdown.StrokeTextView
+            android:layout_marginTop="100dp"
+            android:id="@+id/tv_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/play_advertising_timer_bg"
+            android:paddingLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="33sp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:textStyle="italic"
+            android:typeface="monospace"
+            tools:ignore="RtlSymmetry"
+            android:paddingStart="15dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
